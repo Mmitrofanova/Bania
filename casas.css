@@ -1,0 +1,20 @@
+.sl {
+  width: 1050px;
+  margin-left: 100px;
+}
+.slick-list:hover {
+  cursor: pointer;
+}
+.slick-slide img {
+  width: 100%;
+}
+.slick-dots {
+    position: absolute;
+    bottom: -50px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}

@@ -1,0 +1,198 @@
+html {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+p {
+	font-size: 17px;
+}
+.logo {
+	height: 210px;
+}
+#logo {
+	margin-top: 15px;
+	width: 250px;
+	height: 190px;
+	position: absolute;
+	top: 0;
+	left: 180px;
+	background-color: white;
+}
+.address,
+.contact {
+	color: white;
+	position: absolute;
+}
+.address {
+	left: 700px;
+	line-height: 5px;
+}
+.contact {
+	left: 900px;
+	line-height: 5px;
+}
+body {
+	background: url('fon3.jpg') fixed no-repeat;
+}
+.main_m {
+	background: url('0narciss_bezhevyi_30x30_pol.jpg');
+    width: 65%;
+    height: 1110px;
+    padding: 15px 20px;
+	margin-left: 200px;
+	margin-top: 40px;
+	display: inline-block;
+}
+.description img{
+	width: 330px;
+	height: 250px;
+	position: relative;
+	top: 20px;
+	left: 20px;
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.description img:hover {
+	border-radius: 15px;
+	 -webkit-filter: contrast(185%); 
+}
+.description h1,
+.description p,
+.fin h1, .fin p {
+	color: black;
+	position: relative;
+}
+.description h1 {
+	top: -260px;
+	left: 460px;
+}
+.description p {
+	top: -270px;
+	left: 390px;
+	width: 360px;
+}
+hr {
+	height: 3px;
+	color: grey;
+	background-color: grey;
+	box-shadow:  0 0 25px rgba(0,0,0,0.5);
+	position: relative;
+}
+.description hr {
+	top: -200px;
+	left: 0;
+}
+.rus {
+	margin-top: -200px;
+	height: 400px;
+}
+.rus p {
+	width: 400px;
+}
+.rus img {
+	position: relative;
+	top: -280px;
+	left: 450px;
+	width: 330px;
+	height: 250px;
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.rus img:hover {
+	border-radius: 15px;
+	-webkit-filter: brightness(130%); 
+}
+.rus hr {
+	top: -255px;
+	left: 0;
+}
+.fin img {
+	width: 335px;
+	height: 260px; 
+	position: relative;
+	left: 20px;
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.fin h1 {
+	left: 400px;
+	top: -295px;
+}
+.fin p {
+	left: 400px;
+	top: -315px;
+	width: 400px;
+}
+.fin img:hover {
+	border-radius: 15px;
+	-webkit-filter: brightness(80%);
+	position: relative;
+}
+.fin {
+    height: 400px;
+    position: relative;
+	top: 0px;
+	left: 0px;
+}
+.fin h2, h3 {
+	display: inline;
+	position: relative;
+	top: -325px;
+}
+.foot {
+	width: 74%;
+	height: 200px;
+	background: url('0narciss_bezhevyi_30x30_pol.jpg');
+	margin-top: -240px;
+	margin-left: 160px;
+}
+.foot p {
+	position: relative;
+    width: 520px;
+   top: -215px;    
+   left: 340px;
+}
+.map {
+	border: 5px solid black;
+	
+}
+.effect7
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect7:before, .effect7:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 35px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 35px rgba(0,0,0,0.8);
+    box-shadow:0 0 35px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect7:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
